@@ -1,0 +1,34 @@
+{
+  "name": "aprendiendo-nodejs-felipe-navarro",
+  "version": "1.0.0",
+  "description": "\"Primer Version\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afnavarro27/Aprendiendo-NodeJS-Felipe-Navarro.git"
+  },
+  "keywords": [
+    "learning",
+    "node",
+    "sena",
+    "adsi"
+  ],
+  "author": "Felipe Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afnavarro27/Aprendiendo-NodeJS-Felipe-Navarro/issues"
+  },
+  "homepage": "https://github.com/afnavarro27/Aprendiendo-NodeJS-Felipe-Navarro#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "router": "^1.3.7"
+  }
+}
