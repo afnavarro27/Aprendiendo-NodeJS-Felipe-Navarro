@@ -1,4 +1,5 @@
-var servidor=require('./server');
+const express = require('express');
+const app = express();
 
-servidor.iniciar();
+app.listen(7575);
 

@@ -1,16 +1,19 @@
 var axios = require('axios');
 var data = JSON.stringify({
-    "collection": "<COLLECTION_NAME>",
-    "database": "<DATABASE_NAME>",
+    "collection": "APRENDICES",
+    "database": "Robo3t",
     "dataSource": "ADSI2364482",
-    "projection": {
-        "_id": 1
+    "filter": { "Nombre":"LUIS AVILES"},
+    "update": {
+        "$set": {
+            "Nombre":"Luis aviles"
+        }
     }
 });
             
 var config = {
     method: 'post',
-    url: 'https://data.mongodb-api.com/app/data-cmiel/endpoint/data/v1/action/findOne',
+    url: 'https://data.mongodb-api.com/app/data-cmiel/endpoint/data/v1/action/updateOne',
     headers: {
         'Content-Type': 'application/json',
         'Access-Control-Request-Headers': '*',
