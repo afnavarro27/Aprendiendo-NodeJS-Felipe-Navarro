@@ -1,3 +1,5 @@
+const { restart } = require("nodemon");
+
 function Sumar(a,b){
     return (a+b);
 }
@@ -18,7 +20,7 @@ function Dividir(a,b){
         return (a/b);      
 }
 
-exports.Sumar = sumita
-exports.Multiplicar = multi
-exports.Restar = resta
-exports.Dividir = divi
+exports.Sumar = Sumar
+exports.Restar = Restar
+exports.Multiplicar = Multiplicar
+exports.Dividir = Dividir

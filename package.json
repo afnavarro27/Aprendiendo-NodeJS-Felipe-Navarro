@@ -1,12 +1,12 @@
 {
-  "name": "nodessioco",
+  "name": "Afnavarro27",
   "version": "1.0.0",
-  "description": "Proyecto de aprendizaje de node de Juan Cossio",
+  "description": "Proyecto de aprendizaje de node de Felipe Navarro",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "author": "Ssioco",
+  "author": "Afnavarro",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
